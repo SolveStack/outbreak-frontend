@@ -6,7 +6,7 @@
             Outbreak
             </v-list-item-title>
             <v-list-item-subtitle>
-            subtext
+            The COVID online board game
             </v-list-item-subtitle>
         </v-list-item-content>
         </v-list-item>
@@ -21,6 +21,7 @@
             v-for="item in items"
             :key="item.title"
             link
+            :to="item.to"
         >
             <v-list-item-icon>
             <v-icon>{{ item.icon }}</v-icon>
@@ -39,6 +40,13 @@
     name: 'NavBar',
     props: {
         drawer: Boolean
+    },
+    data() {
+        return {
+            items: [
+                {title: "Game", icon: "mdi-virus", to: "/game"}
+            ]
+        }
     }
   }
 </script>
