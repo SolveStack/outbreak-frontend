@@ -1,6 +1,5 @@
 <template>
     <v-container fluid class="grey lighten-5 d-flex flex-column" style="min-height: 92vh">
-
       <v-row align-stretch height="100%">
         <v-col>
           <v-card
@@ -9,7 +8,7 @@
             outlined
             tile
           >
-            Virus
+            Virus Area
           </v-card>
         </v-col>
         <v-col>
@@ -31,7 +30,7 @@
             tile
             height="100%"
           >
-           Event Card Deck
+           Event Card Deck Area
           </v-card>
         </v-col>
       </v-row>
@@ -43,7 +42,7 @@
             outlined
             tile
           >
-           Cities
+           Cities Area
           </v-card>
         </v-col>
       </v-row>

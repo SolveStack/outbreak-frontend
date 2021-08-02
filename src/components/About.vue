@@ -4,17 +4,6 @@
       <v-col cols="12">
         <Logo />
       </v-col>
-
-      <v-col class="mb-4">
-        <h1 class="display-2 font-weight-bold mb-3">
-          Welcome to Outbreak
-        </h1>
-
-        <p class="subheading font-weight-regular">
-           the COVID online board game
-        </p>
-      </v-col>
-
       <v-col
         class="mb-5"
         cols="12"
