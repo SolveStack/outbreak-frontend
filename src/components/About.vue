@@ -4,13 +4,8 @@
       <v-col cols="12">
         <Logo />
       </v-col>
-      <v-col
-        class="mb-5"
-        cols="12"
-      >
-        <h2 class="headline font-weight-bold mb-3">
-          What's next?
-        </h2>
+      <v-col class="mb-5" cols="12">
+        <h2 class="headline font-weight-bold mb-3">What's next?</h2>
 
         <v-row justify="center">
           <a
@@ -25,13 +20,8 @@
         </v-row>
       </v-col>
 
-      <v-col
-        class="mb-5"
-        cols="12"
-      >
-        <h2 class="headline font-weight-bold mb-3">
-          Social Media
-        </h2>
+      <v-col class="mb-5" cols="12">
+        <h2 class="headline font-weight-bold mb-3">Social Media</h2>
 
         <v-row justify="center">
           <a
@@ -56,49 +46,49 @@ a {
 </style>
 
 <script>
-import Logo from '@/components/Logo.vue'
-  export default {
-    name: 'About',
-    components: {
-      Logo
-    },
-    data: () => ({
-      socialMedia: [
-        {
-          text: 'fb',
-          icon: 'mdi-facebook',
-          href: 'https://www.facebook.com/solvestack',
-        },
-        {
-          text: 'LinkedIn',
-          icon: 'mdi-linkedin',
-          href: 'https://www.linkedin.com/company/solvestack',
-        },
-        {
-          text: 'Insta',
-          icon: 'mdi-instagram',
-          href: 'https://www.instagram.com/solvestackofficial/',
-        },
-        {
-          text: 'Twitter',
-          icon: 'mdi-twitter',
-          href: 'https://twitter.com/solvestack',
-        }
-      ],
-      whatsNext: [
-        {
-          text: 'Solvestack Website',
-          href: 'https://solvestack.com',
-        },
-        {
-          text: 'Meetup Group',
-          href: 'https://www.meetup.com/Solvestack-The-Software-Engineering-Mentorship-Program/',
-        },
-        {
-          text: 'Twitch',
-          href: 'https://www.twitch.tv/solvestack',
-        },
-      ],
-    }),
-  }
+import Logo from "@/components/Logo.vue";
+export default {
+  name: "About",
+  components: {
+    Logo,
+  },
+  data: () => ({
+    socialMedia: [
+      {
+        text: "fb",
+        icon: "mdi-facebook",
+        href: "https://www.facebook.com/solvestack",
+      },
+      {
+        text: "LinkedIn",
+        icon: "mdi-linkedin",
+        href: "https://www.linkedin.com/company/solvestack",
+      },
+      {
+        text: "Insta",
+        icon: "mdi-instagram",
+        href: "https://www.instagram.com/solvestackofficial/",
+      },
+      {
+        text: "Twitter",
+        icon: "mdi-twitter",
+        href: "https://twitter.com/solvestack",
+      },
+    ],
+    whatsNext: [
+      {
+        text: "Solvestack Website",
+        href: "https://solvestack.com",
+      },
+      {
+        text: "Meetup Group",
+        href: "https://www.meetup.com/Solvestack-The-Software-Engineering-Mentorship-Program/",
+      },
+      {
+        text: "Twitch",
+        href: "https://www.twitch.tv/solvestack",
+      },
+    ],
+  }),
+};
 </script>
